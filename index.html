@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Darkmode</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+<div class="main">
+  <h1 id="title">Bake cakes!</h1>
+  <label class="switch">
+    <input type="checkbox" id="themeToggle">
+    <span class="slider"></span>
+  </label>
+
+  <article id="article1" class="article">
+    <h2 class="articleHeader">Marshmellow Teacakes</h2>
+    <ul class="ingredients">
+      <li>Sugar</li>
+      <li>Eggwhite</li>
+      <li>Gelatine</li>
+    </ul>
+    <p class="articleText1" id="articleText1">
+      The company itself is a very successful company.
+      They do not know how to obtain pleasures,
+      But the flight itself? Especially those who do not know other fault than, distinction
+      they are all suffering.
+    </p>
+    <img class="articleImg" src="images/teacakes.jpg" alt="photo of teacakes">
+  </article>
+</div>
+
+<div id="debugInfo" style="position: fixed; bottom: 10px; right: 10px; background: rgba(0, 0, 0, 0.5); color: white; padding: 10px; border-radius: 5px; font-size: 14px;">
+  Time: <span id="currentTime"></span><br>
+  Dark Mode Enabled: <span id="darkModeStatus"></span>
+</div>
+
+<script src="les3.js"></script>
+</body>
+</html>
